@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: "comic sans ms";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.MEDSOS {
+    background: teal;
+    padding: 5px 0px;
+}
+
+.MEDSOS ul li {
+    display: inline-block;
+    color: seashell;
+    margin-right: 5px;
+}
+
+.contalner:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contalner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: teal;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: teal;
+    color: white;
+}
+
+.active {
+    background-color: teal;
+    color: white;
+}
+
+.banner {
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    color: seashell;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px;
+}
+
+.banner img {
+    width: 25%;
+}
+
+.section {
+    width: 25px;
+    margin: 15px;
+    padding: 15px;
+}
+
+p {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: "comic sans ms";
+}
+
+h2 {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+}
+
+.foto img {
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 15px;
+}
+
+#BIODATA {
+    line-height: 5px;
+    text-transform: capitalize;
+    background-color: pink;
+    font-style: oblique;
+}
+
+.BIODATA p {
+    line-height: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.foto1 img {
+    width: 25%;
+    padding: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background-color: gray;
+    margin-top: 50px;
+    float: left;
+}
